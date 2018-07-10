@@ -3,3 +3,4 @@
 node_modules
 # Ada Library Information
 *.ali
+.idea
