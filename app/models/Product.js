@@ -15,7 +15,7 @@ var productSchema = new Schema({
 	color				: {type:String,default:'',required:true},
 	additionalInfo		: {type:String,default:'',required:true},
 	availableIn	  		: {type:Number,default:1,required:true}
-// image URL is to be added
+// image URL is to be added, link to the cloudnary
 },{timestamps:true});
 
 

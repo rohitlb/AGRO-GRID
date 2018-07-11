@@ -24,7 +24,7 @@ var userSchema = new Schema({
 	lastName  			: {type:String,default:'',required:true},
 	email	  			: {type:String,default:'',required:true},
 	password			: {type:String,default:'',required:true},
-//role is to be added
+//role is to be added for diff user and admin
 	cart 				: [cartContent]
 
 },{timestamps:true});
